@@ -1,0 +1,22 @@
+#Desafio 020 
+print("Desafio 020") #O ÚNICO PROBLEMA É QUE O RANDOM ESTÁ REPETINDO O MESMO NÚMERO, não sei como resolver
+aluno1=input("\n Digite o nome do primeiro aluno:")
+aluno2=input("Digita o nome do segundo aluno:")
+aluno3=input("Digite o nome do terceiro aluno:")
+aluno4=input("Digite o nome do quarto aluno:")
+import random
+escolhido1=random.randint(1,4)
+escolhido2=random.randint(1,4)
+escolhido3=random.randint(1,4)
+escolhido4=random.randint(1,4)
+print("\n A sequência de alunos é:")
+print("Aluno 1 = {}".format(aluno1))
+print("Aluno 2 = {}".format(aluno2))
+print("Aluno 3 = {}".format(aluno3))
+print("Aluno 4 = {}".format(aluno4))
+print("-"*20)
+print("O primeiro aluno escolhido é {}.".format(escolhido1))
+print("O segundo aluno esolhido é: {}".format(escolhido2))
+print("O terceiro aluno esolhido é: {}".format(escolhido3))
+print("O quarto aluno escolhido é: {}".format(escolhido4))
+print("-"*20)

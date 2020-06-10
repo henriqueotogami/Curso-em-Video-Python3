@@ -1,0 +1,15 @@
+#Desafio 019
+print("Desafio 019")
+aluno1=input("Digite o nome do primeiro aluno:")
+aluno2=input("Digita o nome do segundo aluno:")
+aluno3=input("Digite o nome do terceiro aluno:")
+aluno4=input("Digite o nome do quarto aluno:")
+import random
+escolhido=random.randint(1,4)
+print("A sequência de alunos é:")
+print("Aluno 1 = {}".format(aluno1))
+print("Aluno 2 = {}".format(aluno2))
+print("Aluno 3 = {}".format(aluno3))
+print("Aluno 4 = {}".format(aluno4))
+print("-"*12)
+print("O aluno escolhido é {}.".format(escolhido))
