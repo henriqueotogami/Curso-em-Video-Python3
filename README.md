@@ -34,8 +34,7 @@ Compilado de arquivos dos desafios das aulas de Python3.
 - [x] **Desafio 033** - Operadores Aritméticos - Verificador de Número Maior e Menor;
 - [x] **Desafio 034** - Operadores Aritméticos - Cálculo de Aumento de Salário;
 - [x] **Desafio 035** - Operadores Aritméticos - Cálculo de Trigonometria: Insira três medidas e veja se é possível formar um triângulo;
-- [ ] **Desafio 035**
-- [ ] **Desafio 036**
+- [x] **Desafio 036** - Operadores Aritméticos - Cálculo para Liberação de Financiamento Imobiliário
 - [ ] **Desafio 037**
 - [ ] **Desafio 038**
 - [ ] **Desafio 039**
