@@ -2,22 +2,17 @@
 # Numbering System Converter
 print("Numbering System Converter")
 decimal = int(input("Please, enter the decimal number"))
+decimalInt = decimal
 binary = []
-while decimal != 0: 
-    binary.append(decimal % 2)
-    print("binary: ", binary)
-    decimal = (decimal // 2)
-    print("decimal: ", decimal)
+while decimalInt != 0: 
+    binary.append(decimalInt % 2)
+    decimalInt = (decimalInt // 2)
 
-print("binary: ", binary)
-binary.reverse()
-binaryReversed = binary
-
-print("binary: ", binary)
-binaryConverted = 0
-while  int(binaryReversed.count(0) + binaryReversed.count(1)) != 0:
-    binaryConverted = str(binaryConverted) + str(binaryReversed.pop())
-
-print("binary: ", binaryReversed)
+binaryConverted = ""
+for index in binary.__reversed__():
+    binaryConverted = str(binaryConverted) + str(binary.index(index))
 
 print("binaryConverted: ", binaryConverted)
+print(type(binaryConverted))
+
+hexadecimalList = [("0", "0000"), ("1", "0001"), ("2", "0010"), ("3", "0011"), ("4", "0100"), ("5", "0101"), ("6", "0110"), ("7", "0111"), ("8", "1000"), ("9", "1001"), ("A", "1010"), ("B", "1011"), ("C","1100"), ("D", "1101"), ("E", "1110"), ("F","1111")]
