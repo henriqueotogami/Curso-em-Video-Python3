@@ -8,15 +8,19 @@ while decimalInt != 0:
     binary.append(decimalInt % 2)
     decimalInt = (decimalInt // 2)
 
+print(binary)
+
 binaryConverted = ""
 for index in binary.__reversed__():
-    binaryConverted = str(binaryConverted) + str(binary.index(index))
+    binaryConverted = str(binaryConverted) + str(binary.pop(index-1))
 
 print("binaryConverted: ", binaryConverted)
 print(type(binaryConverted))
 
 hexadecimalList = [("0", "0000"), ("1", "0001"), ("2", "0010"), ("3", "0011"), ("4", "0100"), ("5", "0101"), ("6", "0110"), ("7", "0111"), ("8", "1000"), ("9", "1001"), ("A", "1010"), ("B", "1011"), ("C","1100"), ("D", "1101"), ("E", "1110"), ("F","1111")]
 
+print(type(hexadecimalList))
+print(len(hexadecimalList))
 quantDigits = len(binaryConverted)
 quantBundles = (quantDigits%4)
 
@@ -35,7 +39,22 @@ quantBundles = int(quantDigits/4)
 print(quantBundles)
 
 binaryList = list(binaryConverted)
-binaryList2 = binaryList.insert(8,"m")
+binaryList2 = []
+index = 0
+index2 = 1
+while quantBundles != 0:
+    binaryList2.append(binaryConverted[index*4:index2*4])
+    quantBundles -= 1
+    index += 1
+    index2 += 2
+
+binaryList2.reverse()
 
 print(binaryList)
 print(binaryList2)
+
+while index != 0:
+    index2 = hexadecimalList.index(int(binaryList2[index]))
+    print("index2:{}",index2)
+    index -= 1
+
