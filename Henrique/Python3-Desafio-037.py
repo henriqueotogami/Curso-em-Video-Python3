@@ -54,7 +54,8 @@ print(binaryList)
 print(binaryList2)
 
 while index != 0:
-    index2 = hexadecimalList.index(int(binaryList2[index]))
-    print("index2:{}",index2)
+    newlist = [x for x in binaryList2 if x == binaryList2.]
+
+    print("newlist:{}",newlist)
     index -= 1
 
