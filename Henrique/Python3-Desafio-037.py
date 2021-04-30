@@ -15,30 +15,30 @@ for index in binary.__reversed__():
     binaryConverted = str(binaryConverted) + str(binary.pop(index-1))
 
 print("binaryConverted: ", binaryConverted)
-print(type(binaryConverted))
+# print(type(binaryConverted))
 
 hexadecimalList = [("0", "0000"), ("1", "0001"), ("2", "0010"), ("3", "0011"), ("4", "0100"), ("5", "0101"), ("6", "0110"), ("7", "0111"), ("8", "1000"), ("9", "1001"), ("A", "1010"), ("B", "1011"), ("C","1100"), ("D", "1101"), ("E", "1110"), ("F","1111")]
 
-print(type(hexadecimalList))
-print(len(hexadecimalList))
+# print(type(hexadecimalList))
+# print(len(hexadecimalList))
 quantDigits = len(binaryConverted)
 quantBundles = (quantDigits%4)
 
-print(quantDigits)
-print(quantBundles)
-print(type(quantBundles))
+# print(quantDigits)
+# print(quantBundles)
+# print(type(quantBundles))
 
 while quantBundles != 0:
     binaryConverted = "0" + binaryConverted
     quantDigits = len(binaryConverted)
     quantBundles = (quantDigits%4)
 
+binaryConverted = binaryConverted[::-1]
 print(binaryConverted)
 print(quantDigits)
 quantBundles = int(quantDigits/4)
 print(quantBundles)
 
-binaryList = list(binaryConverted)
 binaryList2 = []
 index = 0
 index2 = 1
@@ -48,14 +48,11 @@ while quantBundles != 0:
     index += 1
     index2 += 2
 
-binaryList2.reverse()
-
-print(binaryList)
 print(binaryList2)
 
-while index != 0:
-    newlist = [x for x in binaryList2 if x == binaryList2.]
 
-    print("newlist:{}",newlist)
-    index -= 1
+newlist = [x for x in binaryList2[x] if binaryList2[x] in hexadecimalList]
+
+print("newlist:{}",newlist)
+
 
