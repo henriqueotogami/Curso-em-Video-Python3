@@ -1,102 +1,162 @@
-# Canal Curso em Vídeo
-## Python 3
---------------------------------------------------------
-Compilado de arquivos dos desafios das aulas de Python3.
-### Desafios:
-- [x] **Desafio 005** - Operadores Aritméticos - Soma e Subtração - Número Posterior e Antecessor;
-- [x] **Desafio 006** - Operadores Aritméticos - Potência e Raíz Quadrada;
-- [x] **Desafio 007** - Operadores Aritméticos - Média Aritmética de Notas Escolares;
-- [x] **Desafio 008** - Operadores Aritméticos - Conversor de Metros para Centímetros e Milímetros;
-- [x] **Desafio 009** - Operadores Aritméticos - Tabuada;
-- [x] **Desafio 010** - Operadores Aritméticos - Conversor de Moeda: Real para Dólar;
-- [x] **Desafio 011** - Operadores Aritméticos - Cálculo de Área;
-- [x] **Desafio 012** - Operadores Aritméticos - Cálculo de Desconto para Venda de Produto;
-- [x] **Desafio 013** - Operadores Aritméticos - Cálculo de Reajuste de Salário;
-- [x] **Desafio 014** - Operadores Aritméticos - Conversor de Temperatura: Celsius para Fahrenheit;
-- [x] **Desafio 015** - Operadores Aritméticos - Cálculo de Locação de Veículo: Considerando dias e distância percorrida;
-- [x] **Desafio 016** - Operadores Aritméticos - Cálculo de Raíz Quadrada: Arredondamento para cima ou para baixo;
-- [x] **Desafio 017** - Operadores Aritméticos - Cálculo de Trigonometria: O valor da Hipotenusa;
-- [x] **Desafio 018** - Operadores Aritméticos - Cálculo de Trigonometria: Seno, Cosseno e Tangente;
-- [x] **Desafio 019** - Operadores Aritméticos - Sorteio Aleatório de Alunos;
-- [x] **Desafio 020** - Operadores Aritméticos - Sorteio Aleatório de Alunos;
-- [x] **Desafio 021** - Analisador de Textos - Contador de Letras do seu nome;
-- [x] **Desafio 022** - Analisador de Textos - Contador de Letras do seu nome;
-- [x] **Desafio 023** - Separador de Digitos de um Número: Unidade, Dezena, Centena, Milhar;
-- [x] **Desafio 024** - Analisador de Textos - Você Nasceu em Santos?;
-- [x] **Desafio 025** - Analisador de Textos - Seu nome tem Silva?;
-- [x] **Desafio 026** - Analisador de Textos - Primeira e Última Ocorrência em uma String;
-- [x] **Desafio 027** - Analisador de Textos - Primeiro e Último Nome de uma Pessoa;
-- [x] **Desafio 028** - Analisador de Textos - Jogo da advinhação v1.0;
-- [x] **Desafio 029** - Operadores Aritméticos - Radar Eletrônico: Cálculo de Multa;
-- [x] **Desafio 030** - Operadores Aritméticos - Análise de Número: Par ou Ímpar?;
-- [x] **Desafio 031** - Operadores Aritméticos - Custo da Viagem: Considerando apenas a distância em km;
-- [x] **Desafio 032** - Calendário - Verificador de ano Bissexto;
-- [x] **Desafio 033** - Operadores Aritméticos - Verificador de Número Maior e Menor;
-- [x] **Desafio 034** - Operadores Aritméticos - Cálculo de Aumento de Salário;
-- [x] **Desafio 035** - Operadores Aritméticos - Cálculo de Trigonometria: Insira três medidas e veja se é possível formar um triângulo;
-- [x] **Desafio 036** - Operadores Aritméticos - Cálculo para Liberação de Financiamento Imobiliário
-- [ ] **Desafio 037** - Conversor de Sistema Númerico - Decimal para Binário e para Hexadecimal
-- [ ] **Desafio 038**
-- [ ] **Desafio 039**
-- [ ] **Desafio 040**
-- [ ] **Desafio 041**
-- [ ] **Desafio 042**
-- [ ] **Desafio 043**
-- [ ] **Desafio 044**
-- [ ] **Desafio 045**
-- [ ] **Desafio 046**
-- [ ] **Desafio 047**
-- [ ] **Desafio 048**
-- [ ] **Desafio 049**
-- [ ] **Desafio 050**
-- [ ] **Desafio 051**
-- [ ] **Desafio 052**
-- [ ] **Desafio 053**
-- [ ] **Desafio 054**
-- [ ] **Desafio 055**
-- [ ] **Desafio 056**
-- [ ] **Desafio 057**
-- [ ] **Desafio 058**
-- [ ] **Desafio 059**
-- [ ] **Desafio 060**
-- [ ] **Desafio 061**
-- [ ] **Desafio 062**
-- [ ] **Desafio 063**
-- [ ] **Desafio 064**
-- [ ] **Desafio 065**
-- [ ] **Desafio 066**
-- [ ] **Desafio 067**
-- [ ] **Desafio 068**
-- [ ] **Desafio 069**
-- [ ] **Desafio 070**
-- [ ] **Desafio 071**
-- [ ] **Desafio 072**
-- [ ] **Desafio 073**
-- [ ] **Desafio 074**
-- [ ] **Desafio 075**
-- [ ] **Desafio 076**
-- [ ] **Desafio 077**
-- [ ] **Desafio 078**
-- [ ] **Desafio 079**
-- [ ] **Desafio 080**
-- [ ] **Desafio 081**
-- [ ] **Desafio 082**
-- [ ] **Desafio 083**
-- [ ] **Desafio 084**
-- [ ] **Desafio 085**
-- [ ] **Desafio 086**
-- [ ] **Desafio 087**
-- [ ] **Desafio 088**
-- [ ] **Desafio 089**
-- [ ] **Desafio 090**
-- [ ] **Desafio 091**
-- [ ] **Desafio 092**
-- [ ] **Desafio 093**
-- [ ] **Desafio 094**
-- [ ] **Desafio 095**
-- [ ] **Desafio 096**
-- [ ] **Desafio 097**
-- [ ] **Desafio 098**
-- [ ] **Desafio 099**
-- [ ] **Desafio 100**
+# Curso em Vídeo - Python 3
 
+> Repositório com soluções dos desafios das aulas de Python 3 do canal [Curso em Vídeo](https://www.cursoemvideo.com/), com exercícios práticos de programação em Python.
+
+## 📋 Sobre o Projeto
+
+Este projeto reúne os códigos desenvolvidos durante o acompanhamento do curso de Python 3 do Curso em Vídeo. Os arquivos estão organizados por número de desafio e cobrem desde operadores aritméticos e entrada/saída de dados até análise de textos, condicionais, estruturas de repetição e conversão entre sistemas numéricos. O objetivo é documentar o progresso e servir como material de consulta e estudo.
+
+## 📁 Estrutura do Projeto
+
+### Desafios (`Henrique/`)
+
+Os arquivos seguem o padrão `Python3-Desafio-NNN.py`, em que `NNN` é o número do desafio (com três dígitos).
+
+- **Python3-Desafio-005.py** a **Python3-Desafio-036.py** — Desafios concluídos (operadores aritméticos, strings, condicionais, etc.)
+- **Python3-Desafio-037.py** — Conversor de sistema numérico (decimal para binário e hexadecimal)
+- **Python3-Desafio-038.py** a **Python3-Desafio-100.py** — Desafios previstos no curso (a serem implementados)
+
+## 📂 Estrutura do repositório
+
+```
+LICENSE
+README.md
+Henrique/
+  Python3-Desafio-005.py   # número anterior e posterior
+  Python3-Desafio-006.py   # potência e raiz quadrada
+  Python3-Desafio-007.py   # média aritmética
+  Python3-Desafio-008.py   # conversor metros → cm e mm
+  Python3-Desafio-009.py   # tabuada
+  Python3-Desafio-010.py   # conversor real → dólar
+  ...                     # demais desafios (011 a 036)
+  Python3-Desafio-037.py   # conversor decimal → binário/hexadecimal
+  # Python3-Desafio-038.py a 100 — a implementar
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3** — Linguagem de programação utilizada em todos os desafios
+- **Ambiente** — Código compatível com interpretador Python 3.x (terminal ou IDE como VS Code)
+
+## 📝 Funcionalidades Principais
+
+- **Operadores aritméticos** — Soma, subtração, potência, raiz, média, conversões (moeda, temperatura, unidades)
+- **Strings** — Análise de texto, contagem de letras, verificação de substrings, primeiro e último nome
+- **Condicionais** — Par/ímpar, multa por velocidade, ano bissexto, triângulo, financiamento
+- **Números aleatórios** — Sorteio de alunos
+- **Trigonometria** — Hipotenusa, seno, cosseno, tangente
+- **Sistemas numéricos** — Conversão decimal para binário e hexadecimal (Desafio 037)
+
+## 🚀 Como Executar
+
+### Pré-requisito
+
+- [Python 3](https://www.python.org/downloads/) instalado no sistema.
+
+### Via terminal (Linux / macOS)
+
+```bash
+# Na raiz do projeto, execute um desafio específico
+python3 Henrique/Python3-Desafio-005.py
+
+# Ou a partir da pasta Henrique/
+cd Henrique
+python3 Python3-Desafio-005.py
+```
+
+### Via terminal (Windows)
+
+```cmd
+python Henrique\Python3-Desafio-005.py
+```
+
+### Em ambiente gráfico (VS Code, PyCharm, etc.)
+
+Abra o arquivo `.py` desejado e execute com o botão de execução ou atalho configurado no editor.
+
+## 📚 Conteúdos Abordados
+
+- ✅ Operadores aritméticos e expressões
+- ✅ Entrada e saída de dados (`input`, `print`, `format`)
+- ✅ Tipos de dados (int, float, str)
+- ✅ Estruturas condicionais (`if`, `else`, `elif`)
+- ✅ Módulos (`math`, `random`)
+- ✅ Manipulação de strings (índices, fatiamento, métodos)
+- ✅ Estruturas de repetição (a serem reforçadas nos próximos desafios)
+- ✅ Conversão entre sistemas numéricos (binário, hexadecimal)
+
+## 📋 Lista de Desafios
+
+### Desafios concluídos
+
+- [x] **Desafio 005** - Operadores Aritméticos - Número posterior e antecessor
+- [x] **Desafio 006** - Operadores Aritméticos - Potência e raiz quadrada
+- [x] **Desafio 007** - Operadores Aritméticos - Média aritmética de notas
+- [x] **Desafio 008** - Operadores Aritméticos - Conversor de metros para cm e mm
+- [x] **Desafio 009** - Operadores Aritméticos - Tabuada
+- [x] **Desafio 010** - Operadores Aritméticos - Conversor Real para Dólar
+- [x] **Desafio 011** - Operadores Aritméticos - Cálculo de área
+- [x] **Desafio 012** - Operadores Aritméticos - Cálculo de desconto
+- [x] **Desafio 013** - Operadores Aritméticos - Reajuste de salário
+- [x] **Desafio 014** - Operadores Aritméticos - Conversor Celsius para Fahrenheit
+- [x] **Desafio 015** - Operadores Aritméticos - Locação de veículo (dias e km)
+- [x] **Desafio 016** - Operadores Aritméticos - Raiz quadrada (arredondamento)
+- [x] **Desafio 017** - Operadores Aritméticos - Hipotenusa
+- [x] **Desafio 018** - Operadores Aritméticos - Seno, cosseno e tangente
+- [x] **Desafio 019** - Sorteio aleatório de alunos
+- [x] **Desafio 020** - Sorteio aleatório de alunos (ordem)
+- [x] **Desafio 021** - Analisador de textos - Contador de letras do nome
+- [x] **Desafio 022** - Analisador de textos - Contador de letras do nome
+- [x] **Desafio 023** - Separador de dígitos (unidade, dezena, centena, milhar)
+- [x] **Desafio 024** - Analisador de textos - Nasceu em Santos?
+- [x] **Desafio 025** - Analisador de textos - Nome tem Silva?
+- [x] **Desafio 026** - Analisador de textos - Primeira e última ocorrência em string
+- [x] **Desafio 027** - Analisador de textos - Primeiro e último nome
+- [x] **Desafio 028** - Jogo da adivinhação v1.0
+- [x] **Desafio 029** - Radar eletrônico - Cálculo de multa
+- [x] **Desafio 030** - Número par ou ímpar
+- [x] **Desafio 031** - Custo da viagem por distância (km)
+- [x] **Desafio 032** - Verificador de ano bissexto
+- [x] **Desafio 033** - Maior e menor número
+- [x] **Desafio 034** - Cálculo de aumento de salário
+- [x] **Desafio 035** - Triângulo (três medidas)
+- [x] **Desafio 036** - Liberação de financiamento imobiliário
+- [x] **Desafio 037** - Conversor de sistema numérico (decimal → binário e hexadecimal)
+
+### Desafios a fazer
+
+- [ ] **Desafio 038** a **Desafio 100** — A serem implementados conforme o curso
+
+## ⚙️ Como funciona
+
+Cada arquivo em `Henrique/` é um script Python independente. Ao executar, o programa geralmente:
+
+1. Exibe um título ou número do desafio
+2. Solicita entradas ao usuário (`input`)
+3. Processa os dados (cálculos, strings, condicionais)
+4. Exibe o resultado com `print`
+
+Não é necessário instalar pacotes extras para os desafios já presentes no repositório; apenas o Python 3 padrão é utilizado.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a MIT License — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📖 Referências
+
+- [Curso em Vídeo - Python 3](https://www.cursoemvideo.com/course/curso-python-3/) — Curso gratuito de Python 3
+- Código-fonte em `Henrique/Python3-Desafio-*.py` — Soluções dos desafios desenvolvidas ao longo do curso
+
+---
+
+### Hashtags
+
+#Python #Python3 #CursoEmVideo #Programming #LearningToCode #Algorithm #ComputerScience #OpenSource #GitHub #CodeExamples #BeginnerProgramming #ExerciciosPython #DesafiosPython
+
+### Meta Keywords
+
+```
+Python 3, Curso em Vídeo, programação, desafios Python, operadores aritméticos,
+strings, condicionais, entrada e saída, algoritmos, exercícios Python, aprender
+programação, código exemplo, conversão numérica, binário, hexadecimal, código aberto
+```
